@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'UIBaseKit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of UIBaseKit.'
+  s.summary          = 'This helps make the view`s configuration code, hierarchy code, and constraint code neat.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+So far, when coding for a view, we wrote a combination of configuration code, constraint code, and hierarchical code, resulting in a poor understanding of the source. So, I created a library that helps you separate this configuration code, constraint code, and hierarchical code to make it cleaner.
                        DESC
 
   s.homepage         = 'https://github.com/audrl1010/UIBaseKit'

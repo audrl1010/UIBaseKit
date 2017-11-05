@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		402BDAAB32F1C90DE959E008 /* Pods_UIBaseKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F83B1EB02506A8175D834C4 /* Pods_UIBaseKit_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		8BF14F211FAF1BE5005075CE /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF14F201FAF1BE5005075CE /* SignUpViewController.swift */; };
+		8BF14F231FAF1C88005075CE /* FluidAnchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF14F221FAF1C88005075CE /* FluidAnchor.swift */; };
 		D77EC7DC21749384CA0E3BE4 /* Pods_UIBaseKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA92C2E2E8E16E11645BBFB4 /* Pods_UIBaseKit_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,20 +29,20 @@
 
 /* Begin PBXFileReference section */
 		1F83B1EB02506A8175D834C4 /* Pods_UIBaseKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIBaseKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		51918D1EA38E8556C5EE4616 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		51918D1EA38E8556C5EE4616 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* UIBaseKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIBaseKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* UIBaseKit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIBaseKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6D17EBACC98626427E8E7774 /* UIBaseKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = UIBaseKit.podspec; path = ../UIBaseKit.podspec; sourceTree = "<group>"; };
+		6D17EBACC98626427E8E7774 /* UIBaseKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = UIBaseKit.podspec; path = ../UIBaseKit.podspec; sourceTree = "<group>"; };
+		8BF14F201FAF1BE5005075CE /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		8BF14F221FAF1C88005075CE /* FluidAnchor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FluidAnchor.swift; sourceTree = "<group>"; };
 		942111AD1A65CC770A2B4211 /* Pods-UIBaseKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIBaseKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIBaseKit_Example/Pods-UIBaseKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A2DD2CDC25D5115FD51D4350 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A2DD2CDC25D5115FD51D4350 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C0DE1B93C7DEFAE13D242DF9 /* Pods-UIBaseKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIBaseKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIBaseKit_Example/Pods-UIBaseKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CA92C2E2E8E16E11645BBFB4 /* Pods_UIBaseKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIBaseKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA1B21A5DC458060B26B047A /* Pods-UIBaseKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIBaseKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIBaseKit_Tests/Pods-UIBaseKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -114,10 +114,10 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
-				607FACDC1AFB9204008FA782 /* Images.xcassets */,
+				8BF14F201FAF1BE5005075CE /* SignUpViewController.swift */,
+				8BF14F1F1FAF1BD8005075CE /* Utils */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for UIBaseKit";
@@ -157,6 +157,14 @@
 				51918D1EA38E8556C5EE4616 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		8BF14F1F1FAF1BD8005075CE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8BF14F221FAF1C88005075CE /* FluidAnchor.swift */,
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,7 +256,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -361,7 +368,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				8BF14F231FAF1C88005075CE /* FluidAnchor.swift in Sources */,
+				8BF14F211FAF1BE5005075CE /* SignUpViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -385,14 +393,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -509,6 +509,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UIBaseKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -524,6 +525,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UIBaseKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
