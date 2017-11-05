@@ -48,7 +48,7 @@ class SignUpViewController: BaseViewController {
     registerKeyboardObservers()
     signUpButton.addTarget(self, action: #selector(signUpButtonDidTouch), for: .touchUpInside)
 
-  ...
+    ...
 
     // 2) return subviews
     /** 😍 viewController`s view hierarchy
@@ -80,23 +80,23 @@ class SignUpViewController: BaseViewController {
 
   /// Configure the constraints for each view.
   override func setupConstraints() {
-  // 3) set constraints for each view added to superview.
-  // 🤓Note: I set constraints for each view using my favorite `FluidAnchor` library.
-  // https://github.com/audrl1010/FluidAnchor
+    // 3) set constraints for each view added to superview.
+    // 🤓Note: I set constraints for each view using my favorite `FluidAnchor` library.
+    // https://github.com/audrl1010/FluidAnchor
 
-  keyboardAvoidView.flu
-    .leftAnchor(equalTo: view.leftAnchor)
-    .topAnchor(equalTo: view.topAnchor)
-    .rightAnchor(equalTo: view.rightAnchor)
-    .bottomAnchor(equalTo: view.bottomAnchor)
+    keyboardAvoidView.flu
+      .leftAnchor(equalTo: view.leftAnchor)
+      .topAnchor(equalTo: view.topAnchor)
+      .rightAnchor(equalTo: view.rightAnchor)
+      .bottomAnchor(equalTo: view.bottomAnchor)
 
-  containerView.flu
-    .topAnchor(equalTo: view.topAnchor, constant: 60)
-    .leftAnchor(equalTo: view.leftAnchor, constant: 15)
-    .rightAnchor(equalTo: view.rightAnchor, constant: -15)
-    .heightAnchor(equalToConstant: 180)
-  
-    ...
+    containerView.flu
+      .topAnchor(equalTo: view.topAnchor, constant: 60)
+      .leftAnchor(equalTo: view.leftAnchor, constant: 15)
+      .rightAnchor(equalTo: view.rightAnchor, constant: -15)
+      .heightAnchor(equalToConstant: 180)
+    
+      ...
   }
 }
 ```
