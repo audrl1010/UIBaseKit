@@ -1,6 +1,6 @@
 # UIBaseKit
 
-[![CI Status](http://img.shields.io/travis/audrl1010/UIBaseKit.svg?style=flat)](https://travis-ci.org/audrl1010/UIBaseKit)
+![Swift](https://img.shields.io/badge/Swift-4.0-orange.svg)
 [![Version](https://img.shields.io/cocoapods/v/UIBaseKit.svg?style=flat)](http://cocoapods.org/pods/UIBaseKit)
 [![License](https://img.shields.io/cocoapods/l/UIBaseKit.svg?style=flat)](http://cocoapods.org/pods/UIBaseKit)
 [![Platform](https://img.shields.io/cocoapods/p/UIBaseKit.svg?style=flat)](http://cocoapods.org/pods/UIBaseKit)
