@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'UIBaseKit_Example' do
+  pod 'UIBaseKit', :path => '../'
+
+  target 'UIBaseKit_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
