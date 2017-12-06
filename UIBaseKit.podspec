@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UIBaseKit'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'This helps make the view`s configuration code, hierarchy code, and constraint code neat.'
 
 # This description is used to generate tags and improve search results.

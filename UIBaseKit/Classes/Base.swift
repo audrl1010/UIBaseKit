@@ -53,6 +53,9 @@ open class BaseViewController: UIViewController {
   /// Configure the constraints for each view.
   open func setupConstraints() {}
   
+  /// bind rx
+  open func bind() {}
+  
   // this is kind of ugly I know :(
   // Swift compiler reports "Not supported yet" when trying to override protocol extensions
   
@@ -69,6 +72,7 @@ open class BaseViewController: UIViewController {
       }
     }
     setupConstraints()
+    bind()
   }
 }
 
@@ -104,6 +108,9 @@ open class BaseView: UIView {
   /// Configure the constraints for each view.
   open func setupConstraints() {}
   
+  /// bind rx
+  open func bind() {}
+  
   // this is kind of ugly I know :(
   // Swift compiler reports "Not supported yet" when trying to override protocol extensions
   
@@ -120,6 +127,7 @@ open class BaseView: UIView {
       }
     }
     setupConstraints()
+    bind()
   }
 }
 
@@ -156,6 +164,9 @@ open class BaseTableViewCell: UITableViewCell {
   /// Configure the constraints for each view.
   open func setupConstraints() {}
   
+  /// bind rx
+  open func bind() {}
+  
   // this is kind of ugly I know :(
   // Swift compiler reports "Not supported yet" when trying to override protocol extensions
   
@@ -172,6 +183,7 @@ open class BaseTableViewCell: UITableViewCell {
       }
     }
     setupConstraints()
+    bind()
   }
 }
 
@@ -207,6 +219,9 @@ open class BaseCollectionViewCell: UICollectionViewCell {
   /// Configure the constraints for each view.
   open func setupConstraints() {}
   
+  /// bind rx
+  open func bind() {}
+  
   // this is kind of ugly I know :(
   // Swift compiler reports "Not supported yet" when trying to override protocol extensions
   
@@ -223,5 +238,6 @@ open class BaseCollectionViewCell: UICollectionViewCell {
       }
     }
     setupConstraints()
+    bind()
   }
 }
